@@ -1,7 +1,7 @@
 version: 0.1
 name: strapi
 description: An open-source headless content management system.
-image: logo.svg
+image: logo.png
 resources:
   - name: main
     type: container
