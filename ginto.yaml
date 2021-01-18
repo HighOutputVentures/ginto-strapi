@@ -24,15 +24,6 @@ resources:
       default: 2
     path: /opt/ginto/project/data
     container: main
-  - name: main
-    type: container
-    size:
-      minimum: nano
-      default: micro
-    platform: node
-    build: npm run build
-    start: npm run start
-    https: true
 inputs:
   - name: database
     label: Database
