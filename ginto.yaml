@@ -7,10 +7,11 @@ resources:
     type: container
     size:
       minimum: nano
-      default: micro
+      default: nano
     platform: node
+    provision: npm install
     build: npm run build
-    start: npm run start
+    start: npm start
     https: true
     environment:
       - name: DATABASE
