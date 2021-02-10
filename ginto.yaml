@@ -23,7 +23,7 @@ resources:
     size: 
       minimum: 1
       default: 2
-    path: /opt/ginto/project/data
+    path: /home/project/data
     container: main
 inputs:
   - name: database
