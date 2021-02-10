@@ -23,7 +23,7 @@ resources:
     size: 
       minimum: 1
       default: 2
-    path: /home/project/data
+    path: /mnt/data
     container: main
 inputs:
   - name: database
