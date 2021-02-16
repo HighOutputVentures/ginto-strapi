@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
+    "build": "NODE_OPTIONS=\"--max_old_space_size=256\" strapi build",
     "strapi": "strapi"
   },
   "devDependencies": {},
