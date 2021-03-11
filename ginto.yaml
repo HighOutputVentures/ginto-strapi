@@ -9,8 +9,7 @@ resources:
       minimum: small
       default: small
     platform: node
-    provision: npm install
-    build: npm run build
+    build: npm install && npm run build
     start: npm start
     https: true
     environment:
