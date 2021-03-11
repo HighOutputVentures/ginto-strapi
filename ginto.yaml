@@ -6,8 +6,8 @@ resources:
   - name: main
     type: container
     size:
-      minimum: small
-      default: small
+      minimum: nano
+      default: micro
     platform: node
     build: npm install && npm run build
     start: npm start
